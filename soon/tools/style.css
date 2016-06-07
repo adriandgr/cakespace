@@ -48,7 +48,7 @@ height: auto;
 .logo_box{
 width: 349px;
 float: left;
-border-right: 1px solid #808080;
+border-right: 1px solid #303030;
 height: 280px;
 position: relative;
 }
@@ -94,7 +94,7 @@ height: 80px;
 
 h2{
 font-family: Georgia;
-color: #ffe400;
+color: #808080;
 font-size: 24px;
 margin-bottom: 20px;
 }
