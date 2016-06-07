@@ -9,7 +9,9 @@
 title: CAKEspace
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  CAKEspace is a project by CAKE Collective
+  CAKEspace is a project by CAKE, a collective of emerging artists
+  who believe in gathering to share food as a means of building
+  community and starting conversations.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cakespace.ca" # the base hostname & protocol for your site
 twitter_username: jekyllrb
