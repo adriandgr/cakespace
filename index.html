@@ -1,23 +1,35 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Coming Soon</title>
+<link rel="shortcut icon" href="soon/favicon.ico" type="image/x-icon" />
+<link href="soon/tools/style.css" rel="stylesheet" type="text/css" />
+<link href="soon/tools/960.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script type="text/javascript" src="soon/js/cufon-yui.js"></script>
+<script type="text/javascript" src="soon/js/Clarendon_LT_Std_700.font.js"></script>
+<script type="text/javascript">
+  Cufon.replace('h1,h3', {fontFamily: 'Clarendon LT Std', hover:true})
+</script>
+</head>
+<body>
+<div id="shim"></div>
+<div id="content">
+  <div class="logo_box"><h1>CAKEspace<br/>Artist<br/>Society</h1></div>          
+  <div class="main_box">
+  <br><br><br>
+    <h2>Our website is coming soon.<br/><span>In the mean time connect with us with the information below</span></h2>
+    
+    <ul class="info">
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <h3>e-mail</h3>
+        <p>&#105;&#110;&#102;&#111;&#64;&#99;&#97;&#107;&#101;&#115;&#112;&#97;&#99;&#101;&#46;&#99;&#97;</p>
       </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+      
+    </ul>
+  </div>
 </div>
+
+</body>
+</html>
